@@ -1,0 +1,105 @@
+Problems : 
+
+(1) For a n x n matrix :-
+
+Input Format
+
+• Line 1 contains an integer N, representing the dimension of an N × N array.
+• Line 2 contains N×N space separated array elements in row major order.
+• Line 3 contains an integer P, position of the pth largest element in non-decreasing
+sorted sequence.
+
+Constraints
+• All inputs range in between 1 and 1000.
+
+Output Format
+• Line 1 displays three space separated integers, row index of the pth element, column
+index of the pth element, and the value of the pth element
+
+(2) Write a C program for the following operations:
+● G m n: Computes GCD of numbers m and n using a recursive function.
+Note: here G, m and n are space separated.
+● F n: Prints first n terms of the Fibonacci series using a
+recursive function. Note: here F and n are space separated.
+
+Input Format
+
+● Line 1 contains an integer N, the number of queries.
+● The following N lines contain queries in the format as mentioned above.
+
+Constraints
+● All inputs range in between 1 and 100.
+
+Output Format
+● The N lines in the output display the result after the execution of each query
+
+(3) There is an integer array nums already sorted in ascending order with n values. One has
+to rotate nums to the left by k steps, where k (1 <= k < n) is a non-negative number,
+such that the resulting array is {nums[n-k], nums[n-k+1], ..., nums[n-1], nums[0],
+nums[1], ..., nums[n-k-1]}. Update the contents of an array using the following algorithm.
+Step 1: Reverse the given array nums.
+Step 2: Reverse the first k elements of the array nums
+obtained in Step 1. Step 3: Reverse the last n – k elements of
+the array nums obtained in Step 2.
+For example, if nums[0..9] = {1,2,3,4,5,6,7,8,9,10} and k = 2, then the above algorithm
+updates nums
+as {9,10,1,2,3,4,5,6,7,8}.
+Given the array nums after the possible rotation and an integer target, say t, return the
+index of the target (, i.e. t) if it is in nums, otherwise -1.
+
+Input Format
+
+● Line 1 contains an integer n, the number of elements in an array.
+● Line 2 contains n space separated array elements.
+● Line 3 contains an integer k, the pivot index to rotate the array.
+● Line 4 contains an integer t, the target element to be searched.
+
+Constraints
+
+● nums is an ascending array that is rotated by k steps.
+● 1 <= n <= 105
+● -231 <= nums[i] <= 230
+● All values of array nums are unique
+● 0 <= k <= n, else print "-1"
+● -231 <= target <= 230, else print "-1"
+If input values are not satisfying any of the constraints, print -1.
+
+Output Format
+● Line 1 displays the space separated updated contents of nums after
+rotation.
+● Line 2 displays the index of the target element that is searched.
+
+(4) A self-dividing number is a number that is divisible by every digit it contains.
+For example, 128 is a self-dividing number because 128 % 1 == 0, 128 % 2 == 0, and 128
+% 8 == 0.
+A self-dividing number is not allowed to contain the digit zero.
+Given two integers left and right, return a list of all the self-dividing numbers in the range
+[left, right]
+
+example : Input: left = 47, right = 85
+          Output: [48,55,66,77]
+
+Write a program to extract all digits from a given alphanumeric string and store them in a separate string.
+Example: Input: "abc123xyz"
+         Output: "123".
+
+(5) 
+You are given an integer N. Can you find the least positive integer X made up of only 9's and
+0's, such that X is a multiple of N?
+
+Input Format:
+
+• The first line contains an integer T which denotes the number of test cases. T lines fol-
+low.
+Each line contains the integer N for which the solution has to be found.
+
+Output Format:
+
+• Print the answer X to STDOUT corresponding to each test case. The output should not
+contain any leading zeros.
+
+Constraints:
+
+• 1 <= T <= 104
+1 <= N <= 500
+• 0 should not be in the lead
