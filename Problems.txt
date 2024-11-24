@@ -83,8 +83,7 @@ Write a program to extract all digits from a given alphanumeric string and store
 Example: Input: "abc123xyz"
          Output: "123".
 
-(5) 
-You are given an integer N. Can you find the least positive integer X made up of only 9's and
+(5) You are given an integer N. Can you find the least positive integer X made up of only 9's and
 0's, such that X is a multiple of N?
 
 Input Format:
